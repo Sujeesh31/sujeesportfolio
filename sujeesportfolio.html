@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sujeesvaran Pusparaj</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="sujees.jpg" alt="Sujeesvaran Pusparaj" class="profile-image">
+            <h1>Hi, I'm Sujeesvaran</h1>
+            <p>Final-year BSc Applied Computing student, Passionate about data analysis and using technology to solve
+                real-world problems.</p>
+            <!-- <a href="#projects" class="btn">View My Projects</a> -->
+        </div>
+    </header>    
+    <nav>
+        <ul>
+            <li><a href="#about" class="btn-nav">About</a></li>
+            <li><a href="#projects" class="btn-nav">Projects</a></li>
+            <li><a href="#skills" class="btn-nav">Skills</a></li>
+            <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I'm a passionate final-year Applied Computing student from University of South Wales, Wales, UK, graduating
+            in 2025. A highly motivated and detail-oriented final-year BSc (Hons) Applied Computing student with over
+            five years of experience in IT, client services and operations. I have a proven track record of enhancing
+            client satisfaction, streamlining processes, conducting data analysis and supporting cross-functional teams
+            to deliver high-quality results. Currently engaged in full-time studies, I am committed to applying my
+            technical proficiency and contributing towards effective technology solutions and enhance user experiences.
+            I am seeking a challenging role in IT support, System Administration, Quality Assurance, Information
+            Security to apply my academic knowledge, technical expertise and professional experience in a dynamic
+            environment.</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>IoT Prototype for Smart Care Home</h3>
+                <p>Developed an IoT system using OpenHab, ESP8266, Raspberry Pi, and various sensors to improve
+                    healthcare, security, and well-being for elderly residents in an ultra-modern care home.</p>
+            </div>
+            <div class="project">
+                <h3>Internet of Things (IoT) Design Case Study using the Crowpi & Raspberry Pi</h3>
+                <p>Developed an IoT system using Crowpi & Raspberry Pi for Smart City Traffic Management System for
+                    Traffic Police Department.
+                    In order to address this, smart city traffic management systems are being implemented in modern
+                    cities through the growing adoption of Internet of Things (IoT) technology. To improve traffic flow
+                    and raise road safety, these systems offer real-time data collecting, analysis, and automatic
+                    reactions.
+                </p>
+            </div>
+            <div class="Final year project">
+                <h3>Final year Project - Interactive GIS-Powered Tourist Map for Sri Lanka</h3>
+                <p>Creation of an Interactive Web-Based Tourist Map for Sri Lanka's Main Attractions and Landmarks: A
+                    GIS-Powered Solution to Enhance Tourist Experience and Navigation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>IoT Systems Design</li>
+            <li>Python, SQL, QGIS</li>
+            <li>Tools - MS Office, Advanced Excel, Power BI</li>
+            <li>Problem Solving and Critical Thinking</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <li>LinkedIn - Sujeesvaran Pusparaj</li>
+            <li>Email - sujeesvaranpusparaj@gmail.com</li>
+            <li>Phone number - +44 7719294129</li>
+        </form>
+    </section>
+
+    <script>
+        // Simple smooth scroll functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
